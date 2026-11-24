@@ -1,0 +1,26 @@
+# SafeRide security and routing config for Netlify (Kiran). Use this OR _headers, not both.
+# If you connect a form provider, add its domain to form-action in the CSP below.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+
+# QR code addresses. Until launch they open the waitlist. AT LAUNCH: change "to" to the store listing URL.
+[[redirects]]
+  from = "/go/app-store/*"
+  to = "/index.html#waitlist"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/go/google-play/*"
+  to = "/index.html#waitlist"
+  status = 302
+  force = true

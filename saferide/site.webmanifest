@@ -1,0 +1,15 @@
+{
+  "name": "SafeRide",
+  "short_name": "SafeRide",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F6F9FC",
+  "theme_color": "#0F2C4C",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
