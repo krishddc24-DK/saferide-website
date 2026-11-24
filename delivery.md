@@ -47,10 +47,7 @@
 | `airport-transfers.html` | Airport fee, pre-booking, vehicles for luggage |
 | `pre-booked-rides.html` | Scheduling rules and when you're charged |
 | `become-a-rideshare-driver-nz.html` | Driver guide with sourced fee comparison |
-| `rideshare-app-nz.html` | Six questions to ask any app, links to comparisons |
-| `saferide-vs-uber.html` | Sourced comparison (Uber pages dated 2018 and 2024) |
-| `saferide-vs-didi.html` | Sourced comparison (DiDi fee schedule, Newstalk ZB) |
-| `saferide-vs-tripzy.html` | Sourced comparison (tripzy.co.nz, checked 23 Nov 2026) |
+| `rideshare-app-nz.html` | Six questions to ask any app |
 | `404.html` | Not-found page (uses absolute paths; served by your host) |
 | `go/app-store/index.html`, `go/google-play/index.html` | QR code landing pages that forward to the waitlist until launch |
 | `style.css` | Kavya's design system (34 KB) |
@@ -121,7 +118,7 @@
 2. **No surge pricing:** stated as current policy. If that changes, update Pricing, the FAQ, the Home hero points, the city pages and the comparison pages.
 3. **Pre-booked rides:** the site says rides are sent to drivers 20 minutes before pickup. Your ARCHITECTURE.md notes that `release-scheduled-bookings` exists but no migration schedules it. Confirm it runs, or pre-booked rides won't be dispatched.
 4. **Te reo Māori review:** please have a fluent speaker check Haere mai, Kia ora, Ka pai, Aotearoa, Te Whanganui-a-Tara, Tāmaki Makaurau, Ōtautahi and Kirikiriroa, and their placement.
-5. **Comparison pages:** recheck the competitor facts every few months; each page shows a "last checked" date. Consider legal review of named comparisons under the Fair Trading Act.
+5. ~~**Comparison pages:**~~ **Resolved 2026-11-24** — the `saferide-vs-uber.html`, `saferide-vs-didi.html` and `saferide-vs-tripzy.html` pages, the comparison table on `become-a-rideshare-driver-nz.html`, and every link to them, have been removed site-wide. SafeRide's policy is not to name competitors by name anywhere in the app or on this site.
 6. **Poster:** the poster artwork shows Auckland's Sky Tower in a Wellington scene, so it wasn't used on the site. Check it before printing.
 
 ## Agent Team — All 12 Contributors
