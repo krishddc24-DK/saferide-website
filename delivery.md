@@ -118,7 +118,7 @@
 2. **No surge pricing:** stated as current policy. If that changes, update Pricing, the FAQ, the Home hero points, the city pages and the comparison pages.
 3. **Pre-booked rides:** the site says rides are sent to drivers 20 minutes before pickup. Your ARCHITECTURE.md notes that `release-scheduled-bookings` exists but no migration schedules it. Confirm it runs, or pre-booked rides won't be dispatched.
 4. **Te reo Māori review:** please have a fluent speaker check Haere mai, Kia ora, Ka pai, Aotearoa, Te Whanganui-a-Tara, Tāmaki Makaurau, Ōtautahi and Kirikiriroa, and their placement.
-5. ~~**Comparison pages:**~~ **Resolved 2026-11-24** — the `saferide-vs-uber.html`, `saferide-vs-didi.html` and `saferide-vs-tripzy.html` pages, the comparison table on `become-a-rideshare-driver-nz.html`, and every link to them, have been removed site-wide. SafeRide's policy is not to name competitors by name anywhere in the app or on this site.
+5. ~~**Comparison pages:**~~ **Resolved 2026-11-24** — the three named-competitor comparison pages, the fee-comparison table on `become-a-rideshare-driver-nz.html`, and every link to them, have been removed site-wide. SafeRide's policy is not to name competitors by name anywhere in the app or on this site.
 6. **Poster:** the poster artwork shows Auckland's Sky Tower in a Wellington scene, so it wasn't used on the site. Check it before printing.
 
 ## Agent Team — All 12 Contributors
